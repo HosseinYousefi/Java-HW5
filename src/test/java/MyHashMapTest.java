@@ -102,6 +102,16 @@ public class MyHashMapTest extends TestCase {
     }
 
     @Test
+    public void testAddingNullKey() {
+        try {
+            myHashMap.put(null, 100);
+            fail();
+        } catch (Exception e) {
+            // ignore
+        }
+    }
+
+    @Test
     public void testRemovingExistingKey() {
         myHashMap.put("Hossein", 123);
         int result = myHashMap.remove("Hossein");

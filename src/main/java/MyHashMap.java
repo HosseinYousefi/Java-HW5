@@ -78,6 +78,8 @@ public class MyHashMap<K, V> implements Map<K, V> {
 
     @Override
     public V put(K key, V value) {
+        if (key == null)
+            throw new IllegalArgumentException();
         if (containsKey(key))
             for (Element<K, V> elem: table[myHash(key)])
                 if (elem.getKey().equals(key))
