@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3899fc79-dd0c-4d93-8bc6-0bda8ee1511a" name="Default Changelist" comment="" />
+    <list default="true" id="3899fc79-dd0c-4d93-8bc6-0bda8ee1511a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyHashMapTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +24,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3012" />
+          <entry key="java" value="3122" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3012" />
+          <entry key="JAVA" value="3122" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -53,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
+            <state relative-caret-position="-439">
               <caret line="81" column="11" selection-start-line="80" selection-start-column="13" selection-end-line="81" selection-end-column="11" />
             </state>
           </provider>
@@ -62,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyHashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="385">
+              <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#884#885#0" expanded="true" />
@@ -201,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541977803596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541978408471" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -309,17 +311,11 @@
       <updated>1541952052122</updated>
       <workItem from="1541952053592" duration="455000" />
       <workItem from="1541952528766" duration="105000" />
-      <workItem from="1541952650532" duration="5982000" />
+      <workItem from="1541952650532" duration="6346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyHashMapTest - 2018.11.11 at 18h 18m 20s.xml">
-      <configuration name="MyHashMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyHashMapTest - 2018.11.11 at 18h 21m 23s.xml">
-      <configuration name="MyHashMapTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyHashMapTest_testRemovingExistingKey - 2018.11.11 at 18h 23m 41s.xml">
       <configuration name="MyHashMapTest.testRemovingExistingKey" configurationId="JUnit" />
     </history-entry>
@@ -344,9 +340,15 @@
     <history-entry file="MyHashMapTest - 2018.11.12 at 00h 09m 43s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyHashMapTest - 2018.11.12 at 00h 18m 47s.xml">
+      <configuration name="MyHashMapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHashMapTest - 2018.11.12 at 00h 20m 04s.xml">
+      <configuration name="MyHashMapTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6542000" />
+    <option name="totallyTimeSpent" value="6906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -427,15 +429,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
+        <state relative-caret-position="-439">
           <caret line="81" column="11" selection-start-line="80" selection-start-column="13" selection-end-line="81" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="385">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#884#885#0" expanded="true" />

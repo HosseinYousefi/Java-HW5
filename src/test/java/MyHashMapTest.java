@@ -174,4 +174,12 @@ public class MyHashMapTest extends TestCase {
         assertEquals(myHashMap.keySet().contains("Daniela"), false);
         assertEquals(myHashMap.keySet().size(), 1);
     }
+
+    @Test
+    public void testValues() {
+        myHashMap.put("Hossein", 100);
+        assertEquals(myHashMap.values().contains(100), true);
+        assertEquals(myHashMap.values().contains(200), false);
+        assertEquals(myHashMap.values().size(), 1);
+    }
 }
